@@ -1,0 +1,18 @@
+@import '../scss/variables.scss';
+
+#header {
+  & div {
+    height: 100%;
+    background: rgba(0,0,0,.5);
+  }
+  & h1 {
+    margin:auto;
+    padding: 3rem 0 0 0;
+    width: $layout-width;
+    color: #fff;
+    font-size: $font-logo;
+    font-weight: normal;
+  }
+  height: $header-bg-height;
+	background: url('https://react-blog-jlory.s3.ap-northeast-2.amazonaws.com/bg-header.png');
+}

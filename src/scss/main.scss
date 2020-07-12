@@ -1,0 +1,13 @@
+@import '../scss/variables.scss';
+
+main {
+    display: flex;
+    margin: auto;
+    width: $layout-width;
+    & .category {
+        flex: 1 0 0;
+    }
+    & .content {
+        flex: 5 0 0;
+    }
+}
