@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header.js';
 import Main from './components/Main.js';
-import Counter from './components/Counter.js';
+// import Counter from './components/Counter.js';
 import Contact from './components/Contact.js';
 // import ReactMarkdownExample from './components/ReactMarkdownExample.js';
 // import Category from './components/Category.js';
@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         {/* <Counter></Counter> */}
-        {/* <Contact></Contact> */}
+        {/* <Contact /> */}
         <Header></Header>
         <Main></Main>
       </div>

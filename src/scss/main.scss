@@ -6,6 +6,16 @@ main {
     width: $layout-width;
     & .category {
         flex: 1 0 0;
+        padding: 0 1rem 0 0;
+        & input{
+            width: 100%;
+            margin: 1rem 0;
+            height: 1.5rem;
+        }
+        & li{
+            padding: .5rem 0;
+            border-bottom: 1px solid #ddd;
+        }
     }
     & .content {
         flex: 5 0 0;
