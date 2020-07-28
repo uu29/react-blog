@@ -16,9 +16,9 @@ class App extends React.Component {
     return (
       <div className="App">
         {/* <Counter></Counter> */}
-        {/* <Contact /> */}
-        <Header></Header>
-        <Main></Main>
+        <Contact />
+        {/* <Header></Header>
+        <Main></Main> */}
       </div>
     );
   }
