@@ -17,6 +17,7 @@ export default class Contact extends Component {
         {name: 'Sori', phone: '010-1111-4958'},
         {name: 'Youngmin', phone: '010-2222-4958'},
         {name: 'Sehyoen', phone: '010-3333-4958'},
+        {name: 'Sehyoen11', phone: '010-4444-4958'},
       ],
     };
     this.handleChange = this.handleChange.bind(this);
